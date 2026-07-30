@@ -7,5 +7,6 @@ public class WelcomeToJava {
         System.out.println("Now I am learning how to express that logic using Java");
         System.out.println("Now I know how to use git and github");
         System.out.println("Now I know how to commit changes to github");
+        System.out.println("I feel confident in using git and github");
     }
 }
