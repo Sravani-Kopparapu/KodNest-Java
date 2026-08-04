@@ -7,11 +7,11 @@ public class CheckingNums {
         int secondScore = 25;
 
         if (number > 0) {
-            System.out.println("Number is Positive");
+            System.out.println("Number type: Positive");
         } else if (number < 0) {
-            System.out.println("Number is Negative");
+            System.out.println("Number type: Negative");
         } else {
-            System.out.println("Number is Zero");
+            System.out.println("Number type: Zero");
         }
 
         if (number % 2 == 0) {
@@ -20,7 +20,7 @@ public class CheckingNums {
             System.out.println("Parity: Odd");
         }
 
-        if (firstScore > secondScore) {
+        if (firstScore >= secondScore) {
             System.out.println("Larger Score: " + firstScore);
         } else {
             System.out.println("Larger Score: " + secondScore);
