@@ -15,6 +15,7 @@ public class LineFormatting {
         System.out.println("Your height: " + height);
 
         System.out.println("Enter your name: ");
+        sc.nextLine(); // This is to consume the newline character left by nextInt()
         String name = sc.nextLine();
         System.out.println("Your name: " + name);
     }
