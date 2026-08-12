@@ -32,6 +32,14 @@ class CalcApp {
     public static void main(String[] args) {
         Addition a = new Addition();
         System.out.println(a.add(10, 20));
+
         System.out.println(a.add(10, 20.5));
+
+        System.out.println(a.add(10, 20, 30));
+
+        System.out.println(a.add(10, 20, 30.5));
+
+        System.out.println(a.add(10.5, 20.3, 30.4));
+
     }
 }
