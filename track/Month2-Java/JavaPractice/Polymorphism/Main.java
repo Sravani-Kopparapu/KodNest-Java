@@ -8,7 +8,7 @@ class Main {
         accessMethod(pd);
     }
 
-    public static void accessMethod(Developer dev) {
+    public static void accessMethod(Developer dev) { // upcasting using parent reference variable. 
         dev.work();
         dev.project();
     }
